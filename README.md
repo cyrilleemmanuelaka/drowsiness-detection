@@ -1,3 +1,5 @@
+![Drowsiness detection demo](docs/banner.jpg)
+
 # 😴 Drowsiness Detection System (Hybrid CNN + EAR)
 
 A real-time deep learning system that detects whether a person is **awake or sleeping** by combining two signals:
