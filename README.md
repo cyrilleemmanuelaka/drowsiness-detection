@@ -2,8 +2,8 @@
 
 A real-time deep learning system that detects whether a person is **awake or sleeping** by combining two signals:
 
-1. **Eye Aspect Ratio (EAR)** — a fast, geometric heuristic from facial landmarks.
-2. **Convolutional Neural Network (CNN)** — a lightweight binary classifier trained on cropped eye images.
+1. **Eye Aspect Ratio (EAR)** a fast, geometric heuristic from facial landmarks.
+2. **Convolutional Neural Network (CNN)** a lightweight binary classifier trained on cropped eye images.
 
 The two signals are fused with a weighted late-fusion strategy and smoothed over a 30-frame window to reject false positives.
 
@@ -150,9 +150,3 @@ The hybrid approach gives you the **interpretability and speed of EAR** with the
 - Soukupová & Čech (2016) — *Real-Time Eye Blink Detection using Facial Landmarks*
 - King (2009) — *dlib-ml: A Machine Learning Toolkit*
 - MRL Eye Dataset — Czech Technical University
-
----
-
-## 📝 License
-
-Released under the MIT License. Educational/research use encouraged.
